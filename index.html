@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="w-title">WEATHER FORCASTING</div>
+    <br>
+    <div class="weather-box">
+        <div class="weather-input">
+            <p>Enter your details</p>
+            <input id="name-input" type="text" placeholder=" Input your name">
+            <input id="city-input" type="text" placeholder="your area e.g. Texas, Lagos">
+            <input id="country-input" type="text" placeholder="your country e.g. Nigeria">
+            <button class="submit-btn">Fetch Weather</button>
+
+        </div>
+        <div class="output">
+            <div class="current-weather">
+
+                <div class="details">
+                    <h2>&nbsp;&nbsp;&nbsp;</h2>
+                    <h2>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</h2>
+                    <h4>Temperature: &nbsp;°C</h4>
+                    <h4>Wind &nbsp;M/S</h4>
+                    <h4>Humidity: &nbsp;%</h4>
+                    <h4>Visibility:&nbsp;M</h4>
+                    <h4>pressure:&nbsp;hPa</h4>
+
+                </div>
+
+            </div>
+            <div class="days-forecast">
+                <h2>5-days Forecast</h2>
+                <ul class="weather-cards">
+
+                    </ul>
+            </div>
+
+
+        </div>
+
+</div>
+
+       
+        <script src="app.js"></script>
+
+
+        
+</body>
+
+</html>
